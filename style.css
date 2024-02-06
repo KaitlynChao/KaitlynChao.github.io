@@ -50,3 +50,11 @@ a:hover
 a:active  
     { color: #EBD2C1;
     background-color:#8D705C;}
+
+.Courses
+    { color: #66574e;
+    font-family: Lucida;}
+
+.Extra-curriculars
+    { color: #66574e;
+    font-family: Lucida;}
