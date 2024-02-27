@@ -3,15 +3,29 @@
     <head>
         <title> Kaitlyn Chao </title>
         <link rel="stylesheet" href="style.css">
+        <script src="main.js" type="text/javascript"></script>
     </head>
     
     <body>
     <h1> Kaitlyn Chao </h1>
+    <div class="welcome">
+        <p id="user"></p>
+        <!-- Button to prompt for name -->
+        <button class="welcomebutton"onclick="welcome()">Enter Your Name</button>
+        <br>
+        <!-- Clickable image -->
+        <img id="myImage" src="Image/IMG_0408.jpg" alt="My Image" width="100" onclick="enlargeImage()" onmouseout="restoreImage()">
+    </div>
     <div class="links">
-        <h3>
-            <a href="https://www.linkedin.com/in/kaitlyn-chao/">LinkedIn </a> | 
-            <a href="https://github.com/KaitlynChao/KaitlynChao.github.io">GitHub </a>
-        </h3>
+        <body>
+            <!-- Navigation Menu -->
+                <li><a href="https://www.linkedin.com/in/kaitlyn-chao/" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">LinkedIn</a></li>
+                <li><a href="https://github.com/KaitlynChao/KaitlynChao.github.io" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">GitHub</a></li>
+                <li><a href="home.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Home</a></li>
+                <li><a href="about.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">About</a></li>
+                <li><a href="#" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Contact</a></li>
+        </body>
+        </html>
     </div>
     <h2> Education </h2>
     <hr>
@@ -83,4 +97,5 @@
     </ul>
     </body>
 </html>
+
 

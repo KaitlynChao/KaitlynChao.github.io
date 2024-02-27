@@ -57,7 +57,11 @@ a:active
 
 .links
     { color: #66574e;
-    text-align: center;
+    text-align: left;
     font-family: Lucida;}
 
+.welcome
+{ color: #66574e;
+    text-align: center;
+    font-family: Lucida;}
     
