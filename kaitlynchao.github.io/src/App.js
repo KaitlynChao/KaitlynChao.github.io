@@ -62,6 +62,8 @@ function App() {
         </div>
         <div className="links">
           <ul>
+          <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+              <Link to="/">Home</Link> </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/kaitlyn-chao/"
