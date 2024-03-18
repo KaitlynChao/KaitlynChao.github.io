@@ -6,18 +6,6 @@ import Contact from "./Components/Contact/Contact.js";
 import AboutMe from "./Components/AboutMe/AboutMe.js";
 
 function App() {
-  const [userName, setUserName] = useState("");
-
-  const welcome = () => {
-    var name = prompt("Enter your name in the box:", "Kaitlyn");
-
-    var welcometext = document.getElementById("user");
-    if (name === null || name === "") {
-      welcometext.innerHTML = "Welcome to my website!";
-    } else {
-      welcometext.innerHTML = "Welcome to my website, " + name + "!";
-    }
-  };
 
   // Implementation to enlarge image
   const enlargeImage = () => {
@@ -46,11 +34,6 @@ function App() {
       <div>
         <h1>Kaitlyn Chao</h1>
         <div className="welcome">
-          <p id="user">{userName}</p>
-          <button className="welcomebutton" onClick={welcome}>
-            Enter Your Name
-          </button>
-          <br />
           <img
             id="myImage"
             src={myImage}
@@ -59,7 +42,7 @@ function App() {
             onClick={enlargeImage}
             onMouseOut={restoreImage}
           />
-        </div>
+       </div>
         <div className="links">
           <ul>
           <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
@@ -110,61 +93,6 @@ function App() {
             </ul>
           </li>
         </ul>
-        <h2>Program</h2>
-        <hr />
-        <p>
-          I am currently enrolled in the Business Technology Management (BTM)
-          program, which covers the essential principles of business,
-          technology, and management. This program equips students with relevant
-          skills needed for thriving in career paths like Business Intelligence
-          and Information Technology.
-        </p>
-        <h2>Courses</h2>
-        <hr />
-        <h4>These are my Top 2 courses currently:</h4>
-        <div className="Courses">
-          <ol>
-            <li>
-              ITM500
-              <p>
-                This was an introduction course to SQL, but it was very
-                interesting and valuable for its practical applications, and
-                career prospects. It is a crucial skill for anyone working with
-                databases and data-driven decision-making.
-              </p>
-            </li>
-            <li>
-              ITM301
-              <p>
-                This class provided an introduction to computer hardware,
-                software, and communication networks. I particularly enjoyed the
-                section on computer hardware as building a solid foundation of
-                knowledge and skills on this topic is applicable in various
-                ways.
-              </p>
-            </li>
-          </ol>
-        </div>
-        <table>
-          <tbody>
-            <tr>
-              <th>
-                <a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/500/">
-                  ITM500
-                </a>
-              </th>
-              <td>Course Description for ITM500</td>
-            </tr>
-            <tr>
-              <th>
-                <a href="https://www.torontomu.ca/calendar/2023-2024/courses/information-technology-management/ITM/301/">
-                  ITM301
-                </a>
-              </th>
-              <td>Course Description for ITM301</td>
-            </tr>
-          </tbody>
-        </table>
         <h2>Extra-curriculars at TMU</h2>
         <hr />
         <ul>

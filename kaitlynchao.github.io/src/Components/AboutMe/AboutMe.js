@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function AboutMe(){
     return(
-        <h2> Hi</h2>
+        <h2> WIP </h2>
     )
 }
 export default AboutMe;
