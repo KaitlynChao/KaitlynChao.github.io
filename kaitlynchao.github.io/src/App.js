@@ -34,35 +34,17 @@ function App() {
       <div>
         <h1>Kaitlyn Chao</h1>
         <div className="links">
-          <ul>
-          <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              <Link to="/">Home</Link> </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/kaitlyn-chao/"
-                onMouseOver={handleMouseOver}
-                onMouseOut={handleMouseOut}
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/KaitlynChao/KaitlynChao.github.io"
-                onMouseOver={handleMouseOver}
-                onMouseOut={handleMouseOut}
-              >
-                GitHub
-              </a>
-            </li>
-            <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              <Link to="/AboutMe">About Me</Link>
-            </li>
-            <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              <Link to="/Contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
+        <nav>
+            <a href="/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Home</a> |
+            <a href="/AboutMe" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>About Me</a> |
+            <a href="/Contact" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Contact</a> |
+            <a href="https://github.com/KaitlynChao/KaitlynChao.github.io" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>GitHub</a> |
+            <a href="https://www.linkedin.com/in/kaitlyn-chao/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>LinkedIn</a>
+         </nav>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
         <Routes>
           <Route path= "/" element = {
             <>

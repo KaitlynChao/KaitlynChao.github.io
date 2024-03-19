@@ -1,7 +1,7 @@
 body    
-    { background-color: #121212;
-    color: #B3B3B3;
-    font-family: Arial;
+    { background-color: #121212c9;
+    color: #cac8c8;
+    font-family: 'Roboto', sans-serif;
     size: 12pt;
     margin-top: 20pt;
     margin-bottom: 20pt;
@@ -9,40 +9,50 @@ body
     margin-right: 20pt; }
 
 h1
-    { color: #FFFFFF;
-    text-align: left;
-    font-family: Lucida;}
+    { color: #ffffffde;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;}
 
 h2
-    { color: #FFFFFF;
-    font-family: Lucida;}
+    { color: #ffffffde;
+    font-family: 'Roboto', sans-serif;}
 
 p 
-    { color: #B3B3B3;
+    { color: #ffffffde;
     text-align: left;
-    font-family: Lucida;}
+    font-family: 'Roboto', sans-serif;}
 
 a:link    
-    { color:#B3B3B3;}
+    { color:#ffffffde;}
 
 a:visited 
-    { color: #a37fc0;}
+    { color: #a680c5;}
 
 a:hover   
     { color: #121212;
-    background-color:#FFFFFF;}
+    background-color:#ffffffee;}
 
 a:active  
     { color: #121212;
-    background-color:#FFFFFF;}
+    background-color:#ffffffee;}
 
 .links
-    { color: #B3B3B3;
+    { color: #ffffffde;
     text-align: left;
-    font-family: Lucida;}
+    font-family: 'Roboto', sans-serif;}
 
 .welcome
-{ color: #B3B3B3;
+{ color: #ffffffde;
     text-align: center;
-    font-family: Lucida;}
+    font-family: 'Roboto', sans-serif;}
+
+.links nav a {
+    display: inline-block;
+    margin: 0 25px; 
+    text-decoration: none;
+    }
+    
+.links nav {
+    text-align: center;
+    }
     
