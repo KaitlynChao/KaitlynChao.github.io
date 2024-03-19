@@ -1,6 +1,6 @@
 body    
-    { background-color: #FAE7D9;
-    color: #83512F;
+    { background-color: #121212;
+    color: #B3B3B3;
     font-family: Arial;
     size: 12pt;
     margin-top: 20pt;
@@ -9,59 +9,40 @@ body
     margin-right: 20pt; }
 
 h1
-    { color: #180C05;
+    { color: #FFFFFF;
     text-align: left;
     font-family: Lucida;}
 
 h2
-    { color: #A38B7B;
-    font-family: Lucida;}
-
-h4
-    { color: #66574e;
-    text-align: center;
+    { color: #FFFFFF;
     font-family: Lucida;}
 
 p 
-    { color: #52463E;
+    { color: #B3B3B3;
     text-align: left;
     font-family: Lucida;}
 
-th, td
-    { border: 2px solid #4E2F1A;
-    padding: 10px}
-
-table 
-    { border-collapse: collapse; 
-    margin-left: auto;
-    margin-right: auto;
-    color: #4E2F1A; }
-
 a:link    
-    { color:#8D705C;}
+    { color:#B3B3B3;}
 
 a:visited 
-    { color: #D56E2A;}
+    { color: #a37fc0;}
 
 a:hover   
-    { color: #EBD2C1;
-    background-color:#4E2F1A; }
+    { color: #121212;
+    background-color:#FFFFFF;}
 
 a:active  
-    { color: #EBD2C1;
-    background-color:#8D705C;}
-
-.Courses
-    { color: #66574e;
-    font-family: Lucida;}
+    { color: #121212;
+    background-color:#FFFFFF;}
 
 .links
-    { color: #66574e;
+    { color: #B3B3B3;
     text-align: left;
     font-family: Lucida;}
 
 .welcome
-{ color: #66574e;
+{ color: #B3B3B3;
     text-align: center;
     font-family: Lucida;}
     

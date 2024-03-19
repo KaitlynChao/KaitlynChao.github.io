@@ -33,16 +33,6 @@ function App() {
     <Router>
       <div>
         <h1>Kaitlyn Chao</h1>
-        <div className="welcome">
-          <img
-            id="myImage"
-            src={myImage}
-            alt="My Image"
-            width="100"
-            onClick={enlargeImage}
-            onMouseOut={restoreImage}
-          />
-       </div>
         <div className="links">
           <ul>
           <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
@@ -76,6 +66,16 @@ function App() {
         <Routes>
           <Route path= "/" element = {
             <>
+            <div className="welcome">
+          <img
+            id="myImage"
+            src={myImage}
+            alt="My Image"
+            width="100"
+            onClick={enlargeImage}
+            onMouseOut={restoreImage}
+          />
+       </div>
         <h2>Education</h2>
         <hr />
         <ul>
@@ -92,13 +92,6 @@ function App() {
               <li>Honour Roll</li>
             </ul>
           </li>
-        </ul>
-        <h2>Extra-curriculars at TMU</h2>
-        <hr />
-        <ul>
-          <li>Badminton Club | September 2021 - Present</li>
-          <li>Trampoline Club | May 2023 - December 2023</li>
-          <li>Archery Club | September 2022 - December 2022</li>
         </ul>
         </>
           } />
