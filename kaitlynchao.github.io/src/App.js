@@ -78,7 +78,7 @@ function App() {
         <Link to="/contact">Contact</Link> |
         <a href="https://github.com/KaitlynChao/KaitlynChao.github.io">GitHub</a> |
         <a href="https://www.linkedin.com/in/kaitlyn-chao/">LinkedIn</a> |
-        <button onClick={toggleTheme} className="theme-toggle-button">
+        <button onClick={toggleTheme} className="theme button">
           {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
         </button> |
         <button onClick={decreaseFontSize}>-</button> 
@@ -95,14 +95,14 @@ function App() {
               <img 
                   id="myImage" 
                   src={myImage} 
-                  alt="This is a Profile of Kaitlyn Chao with her Snowboard" 
+                  alt="This is a Profile of Kaitlyn Chao with her Snowboard on a Mountain" 
                   style={{ 
                     width: `${getImageSize(fontSizes[fontSizeIndex])}px`, 
                     height: 'auto' 
                   }} 
                 />
               </div>
-              <div className="education-section">
+              <div className="education">
                 <h2>Education</h2>
                 <hr />
                 <ul>
