@@ -1,60 +1,47 @@
-body    
-    { background-color: #121212c9;
-    color: #cac8c8;
-    font-family: 'Roboto', sans-serif;
-    size: 12pt;
-    margin-top: 20pt;
-    margin-bottom: 20pt;
-    margin-left: 20pt;
-    margin-right: 20pt; }
-
-h1
-    { color: #ffffffde;
+.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark a {
+    color: #dcc1fc;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .light a {
+    color: #39136e;
+  }  
+ 
+  .App-header {
     text-align: center;
-    font-family: 'Roboto', sans-serif;}
+    padding-top: 20px; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 10px 0; 
+  }
+  
+  .theme-toggle-button {
+    cursor: pointer;
+  }
 
-h2
-    { color: #ffffffde;
-    font-family: 'Roboto', sans-serif;}
+  .welcome {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; 
+  }
 
-p 
-    { color: #ffffffde;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;}
+  .education-section {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
 
-a:link    
-    { color:#ffffffde;}
-
-a:visited 
-    { color: #a680c5;}
-
-a:hover   
-    { color: #121212;
-    background-color:#ffffffee;}
-
-a:active  
-    { color: #121212;
-    background-color:#ffffffee;}
-
-.links
-    { color: #ffffffde;
-    text-align: left;
-    font-family: 'Roboto', sans-serif;}
-
-.welcome
-{ color: #ffffffde;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;}
-
-.links nav a {
-    display: inline-block;
-    margin: 0 25px; 
-    text-decoration: none;
-    }
-    
-.links nav {
-    text-align: center;
-    }
-    
-
-      

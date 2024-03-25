@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import "./AboutMe.css";
 
 function AboutMe(){
     return(
-        <h2> Hi! I'll have more here by Thursday. Sorry about that! </h2>
+       <h2> WIP </h2>
     )
 }
 export default AboutMe;
