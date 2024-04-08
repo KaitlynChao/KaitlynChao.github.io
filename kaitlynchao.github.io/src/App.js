@@ -107,8 +107,8 @@ function App() {
     <header className="App-header">
       <nav className="navbar">
         <Link to="/">Home</Link> |
-        <Link to="/about">About Me</Link> |
-        <Link to="/contact">Contact Me</Link> |
+        <Link to="/about">About</Link> |
+        <Link to="/contact">Contact</Link> |
         <a href="https://github.com/KaitlynChao/KaitlynChao.github.io">GitHub</a> |
         <a href="https://www.linkedin.com/in/kaitlyn-chao/">LinkedIn</a> |
         <button onClick={toggleTheme} className="theme button">
@@ -123,40 +123,35 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={
-            <div>
-              <div className="welcome" data-theme={theme}>
-              <img 
-                  id="myImage" 
-                  src={myImage} 
-                  alt="This is a Profile of Kaitlyn Chao with her Snowboard on a Mountain" 
-                  style={{ 
-                    width: `${getImageSize(fontSizes[fontSizeIndex])}px`, 
-                    height: 'auto' 
-                  }} 
+            <div className="content-container" data-theme={theme}>
+              <div className="profile-image-container">
+                <img
+                  id="myImage"
+                  src={myImage}
+                  alt="Kaitlyn Chao with her snowboard on a mountain"
+                  style={{
+                    maxWidth: '100%',
+                    height: 'auto'
+                  }}
                 />
               </div>
-              <div className="education">
-                <h2>Education</h2>
-                <hr />
-                <ul>
-                  <li>
-                    Toronto Metropolitan University (TMU) | September 2021 - Present
-                    <ul>
-                      <li>Business Technology Management (BComm)</li>
-                    </ul>
-                  </li>
-                  <li>
-                    SATEC @ W.A. Porter Collegiate Institute | September 2017 - June 2021
-                    <ul>
-                      <li>Honour Roll</li>
-                    </ul>
-                  </li>
-                </ul>
+              <div className="home-page">
+                <h2> Hello!</h2>
+                <h2>I'm Kaitlyn Chao</h2>
+                <h3> A 3rd-Year BTM Co-op Student at TMU</h3>
+                <a
+                  href="/Resume - Kaitlyn Chao.pdf"
+                  className="resume-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View My Resume
+                </a>
               </div>
             </div>
           } />
         </Routes>
-        <Footer /> 
+        <Footer />
       </div>
     </Router>
   );
