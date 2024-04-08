@@ -138,7 +138,8 @@ function App() {
               <div className="home-page">
                 <h2> Hello!</h2>
                 <h2>I'm Kaitlyn Chao</h2>
-                <h3> A 3rd-Year BTM Co-op Student at TMU</h3>
+                <h3> A 3rd-year Business Technology Management <br></br> Co-op student 
+                  at Toronto Metropolitan University</h3>
                 <a
                   href="/Resume - Kaitlyn Chao.pdf"
                   className="resume-button"
