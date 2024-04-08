@@ -2,8 +2,37 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import "./style.css";
 import myImage from "./Image/IMG_0408.jpg";
+import GitHubIcon from "./Image/Github Icon.webp";
+import LinkedInIcon from "./Image/LinkedIn Icon.webp";
 import Contact from "./Components/Contact/Contact.js";
 import AboutMe from "./Components/AboutMe/AboutMe.js";
+
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-text">
+        <div className="footer-phone">
+          Phone: <br /> 647-636-1318
+        </div>
+        <div className="footer-email">
+          Email: <br /> Kaitlyn.chao@torontomu.ca
+        </div>
+        <div className="footer-social">
+          Follow me <br />
+          <a href="https://www.linkedin.com/in/kaitlyn-chao/" target="_blank" rel="noopener noreferrer">
+            {/* Use the imported LinkedIn image */}
+            <img src={LinkedInIcon} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/KaitlynChao/KaitlynChao.github.io" target="_blank" rel="noopener noreferrer">
+            {/* Use the imported GitHub image */}
+            <img src={GitHubIcon} alt="Github" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -68,6 +97,10 @@ function App() {
     document.body.className = `${theme} ${fontSizeClass}`;
   }, [theme, fontSizeIndex]);
 
+  useEffect(() => {
+    document.title = "Kaitlyn Chao";
+  }, []);
+
   return (
     <Router>
   <div className={`App`}>
@@ -75,7 +108,7 @@ function App() {
       <nav className="navbar">
         <Link to="/">Home</Link> |
         <Link to="/about">About Me</Link> |
-        <Link to="/contact">Contact</Link> |
+        <Link to="/contact">Contact Me</Link> |
         <a href="https://github.com/KaitlynChao/KaitlynChao.github.io">GitHub</a> |
         <a href="https://www.linkedin.com/in/kaitlyn-chao/">LinkedIn</a> |
         <button onClick={toggleTheme} className="theme button">
@@ -123,6 +156,7 @@ function App() {
             </div>
           } />
         </Routes>
+        <Footer /> 
       </div>
     </Router>
   );

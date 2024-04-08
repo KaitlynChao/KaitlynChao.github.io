@@ -44,4 +44,40 @@
     max-width: 800px; 
     margin: 0 auto; 
   }
+  
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px; 
+    margin: 0 auto; 
+  }
+  
+  .footer-phone, .footer-email, .footer-social {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+  }
+  
+  .footer-social img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer-line {
+    border-top: 1px solid #ccc;
+  }
 
+  .footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(128, 128, 128);
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  

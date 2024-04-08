@@ -1,13 +1,58 @@
+.contact-heading {
+  text-align: center;
+  margin-bottom: 25px; 
+}
 
-  
-  .light {
-    background-color: white;
-    color: black;
+label {
+  display: block; 
+  margin-top: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+  border: 1px solid #383838; 
+  border-radius: 5px; 
+}
+
+textarea {
+  height: 150px; 
+}
+
+input[type="submit"] {
+  background-color: #646464; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3f3f3f; 
+}
+
+
+.container1 {
+  max-width: 600px; 
+  margin: auto; 
+  padding: 20px; 
+}
+
+
+@media (max-width: 600px) {
+  .container1 {
+    width: auto; 
+    padding: 10px; 
   }
-  
-  .dark {
-    background-color: black;
-    color: white;
-  }
-  
- 
+}
+
+.thank-you-message {
+  font-size: 2rem;
+  margin-top: -5px;
+  text-align: center; 
+}
