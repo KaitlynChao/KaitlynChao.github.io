@@ -20,11 +20,9 @@ function Footer() {
         <div className="footer-social">
           Follow me <br />
           <a href="https://www.linkedin.com/in/kaitlyn-chao/" target="_blank" rel="noopener noreferrer">
-            {/* Use the imported LinkedIn image */}
             <img src={LinkedInIcon} alt="LinkedIn" />
           </a>
           <a href="https://github.com/KaitlynChao/KaitlynChao.github.io" target="_blank" rel="noopener noreferrer">
-            {/* Use the imported GitHub image */}
             <img src={GitHubIcon} alt="Github" />
           </a>
         </div>
