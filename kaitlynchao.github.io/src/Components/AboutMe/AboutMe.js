@@ -8,8 +8,8 @@ function AboutMe() {
         <div>
             <div className="Work-and-Hobbies">
             <div className="About-images">
-                    <img src={sunshineVillage} alt="Sunshine Village" className="personal-image" />
-                    <img src={mountain} alt="Mountain" className="personal-image" />
+                    <img src={sunshineVillage} alt="View of mountains with a sign that says Sunshine in the center" className="personal-image" />
+                    <img src={mountain} alt="View of snowy Mountains" className="personal-image" />
                 </div>
                 <section>
                     <h2>Work Experience</h2>
