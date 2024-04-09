@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8e066642.css",
-    "main.js": "/static/js/main.f75acced.js",
+    "main.js": "/static/js/main.2c2a3316.js",
     "static/js/453.2aeac062.chunk.js": "/static/js/453.2aeac062.chunk.js",
     "static/media/IMG_0408.jpg": "/static/media/IMG_0408.453dd62da8a8a95a2ee6.jpg",
     "static/media/sunshine village.jpg": "/static/media/sunshine village.7567dad7a74986e45c11.jpg",
@@ -10,11 +10,11 @@
     "static/media/LinkedIn Icon.webp": "/static/media/LinkedIn Icon.4c11b4693dd4eebca5be.webp",
     "index.html": "/index.html",
     "main.8e066642.css.map": "/static/css/main.8e066642.css.map",
-    "main.f75acced.js.map": "/static/js/main.f75acced.js.map",
+    "main.2c2a3316.js.map": "/static/js/main.2c2a3316.js.map",
     "453.2aeac062.chunk.js.map": "/static/js/453.2aeac062.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e066642.css",
-    "static/js/main.f75acced.js"
+    "static/js/main.2c2a3316.js"
   ]
 }
